@@ -14,6 +14,8 @@
 		181A05C21AC1A1D700D3E6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181A05C11AC1A1D700D3E6D5 /* Images.xcassets */; };
 		181A05C51AC1A1D700D3E6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181A05C31AC1A1D700D3E6D5 /* LaunchScreen.xib */; };
 		181A05D11AC1A1D700D3E6D5 /* MobileMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A05D01AC1A1D700D3E6D5 /* MobileMapperTests.m */; };
+		181A05DC1AC1BB7600D3E6D5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A05DB1AC1BB7600D3E6D5 /* MapViewController.m */; };
+		181A05DE1AC1BBD500D3E6D5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181A05DD1AC1BBD500D3E6D5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		181A05CA1AC1A1D700D3E6D5 /* MobileMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181A05CF1AC1A1D700D3E6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181A05D01AC1A1D700D3E6D5 /* MobileMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileMapperTests.m; sourceTree = "<group>"; };
+		181A05DA1AC1BB7600D3E6D5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		181A05DB1AC1BB7600D3E6D5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		181A05DD1AC1BBD500D3E6D5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181A05DE1AC1BBD500D3E6D5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		181A05A81AC1A1D700D3E6D5 = {
 			isa = PBXGroup;
 			children = (
+				181A05DD1AC1BBD500D3E6D5 /* MapKit.framework */,
 				181A05B31AC1A1D700D3E6D5 /* MobileMapper */,
 				181A05CD1AC1A1D700D3E6D5 /* MobileMapperTests */,
 				181A05B21AC1A1D700D3E6D5 /* Products */,
@@ -85,6 +92,8 @@
 				181A05B91AC1A1D700D3E6D5 /* AppDelegate.m */,
 				181A05BB1AC1A1D700D3E6D5 /* RootViewController.h */,
 				181A05BC1AC1A1D700D3E6D5 /* RootViewController.m */,
+				181A05DA1AC1BB7600D3E6D5 /* MapViewController.h */,
+				181A05DB1AC1BB7600D3E6D5 /* MapViewController.m */,
 				181A05BE1AC1A1D700D3E6D5 /* Main.storyboard */,
 				181A05C11AC1A1D700D3E6D5 /* Images.xcassets */,
 				181A05C31AC1A1D700D3E6D5 /* LaunchScreen.xib */,
@@ -222,6 +231,7 @@
 				181A05BD1AC1A1D700D3E6D5 /* RootViewController.m in Sources */,
 				181A05BA1AC1A1D700D3E6D5 /* AppDelegate.m in Sources */,
 				181A05B71AC1A1D700D3E6D5 /* main.m in Sources */,
+				181A05DC1AC1BB7600D3E6D5 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +422,7 @@
 				181A05D61AC1A1D700D3E6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181A05D71AC1A1D700D3E6D5 /* Build configuration list for PBXNativeTarget "MobileMapperTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				181A05D91AC1A1D700D3E6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
